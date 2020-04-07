@@ -1,0 +1,21 @@
+{
+  "bbox": [
+    4.3841,
+    50.8127,
+    4.392,
+    50.8182
+  ],
+  "highways": [
+    "primary",
+    "primary_link",
+    "secondary",
+    "secondary_link",
+    "tertiary",
+    "tertiary_link",
+    "residential",
+    "motorway",
+    "motorway_link",
+    "trunk",
+    "trunk_link"
+  ]
+}

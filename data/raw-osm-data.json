@@ -1,0 +1,4807 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.56.1002 b121d216",
+  "osm3s": {
+    "timestamp_osm_base": "2020-04-07T03:13:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8092115,
+      "lat": 50.8205049,
+      "lon": 4.3850977,
+      "tags": {
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8092118,
+      "lat": 50.8156269,
+      "lon": 4.3897114
+    },
+    {
+      "type": "node",
+      "id": 8092119,
+      "lat": 50.8155842,
+      "lon": 4.3900411
+    },
+    {
+      "type": "node",
+      "id": 8092120,
+      "lat": 50.8156964,
+      "lon": 4.390118
+    },
+    {
+      "type": "node",
+      "id": 8092121,
+      "lat": 50.8157629,
+      "lon": 4.3900833
+    },
+    {
+      "type": "node",
+      "id": 8092123,
+      "lat": 50.8137898,
+      "lon": 4.3842294
+    },
+    {
+      "type": "node",
+      "id": 8092126,
+      "lat": 50.8158159,
+      "lon": 4.3898279
+    },
+    {
+      "type": "node",
+      "id": 8792367,
+      "lat": 50.8163688,
+      "lon": 4.3916416
+    },
+    {
+      "type": "node",
+      "id": 8792368,
+      "lat": 50.8168052,
+      "lon": 4.3922141
+    },
+    {
+      "type": "node",
+      "id": 26080213,
+      "lat": 50.8191228,
+      "lon": 4.3833571
+    },
+    {
+      "type": "node",
+      "id": 26080218,
+      "lat": 50.819983,
+      "lon": 4.385856
+    },
+    {
+      "type": "node",
+      "id": 26080219,
+      "lat": 50.8195118,
+      "lon": 4.3865388
+    },
+    {
+      "type": "node",
+      "id": 26080220,
+      "lat": 50.8200044,
+      "lon": 4.3875611
+    },
+    {
+      "type": "node",
+      "id": 26080598,
+      "lat": 50.8183488,
+      "lon": 4.3844826
+    },
+    {
+      "type": "node",
+      "id": 26080599,
+      "lat": 50.8176897,
+      "lon": 4.3829941
+    },
+    {
+      "type": "node",
+      "id": 26080600,
+      "lat": 50.8169687,
+      "lon": 4.381422
+    },
+    {
+      "type": "node",
+      "id": 26083597,
+      "lat": 50.8180036,
+      "lon": 4.3858024
+    },
+    {
+      "type": "node",
+      "id": 26083599,
+      "lat": 50.8174324,
+      "lon": 4.3884587
+    },
+    {
+      "type": "node",
+      "id": 26083646,
+      "lat": 50.8157003,
+      "lon": 4.3835594
+    },
+    {
+      "type": "node",
+      "id": 26083648,
+      "lat": 50.8176352,
+      "lon": 4.3852991
+    },
+    {
+      "type": "node",
+      "id": 26083649,
+      "lat": 50.8169711,
+      "lon": 4.38699
+    },
+    {
+      "type": "node",
+      "id": 26083651,
+      "lat": 50.815172,
+      "lon": 4.3843314
+    },
+    {
+      "type": "node",
+      "id": 26083652,
+      "lat": 50.8154324,
+      "lon": 4.3846392
+    },
+    {
+      "type": "node",
+      "id": 26083653,
+      "lat": 50.8154798,
+      "lon": 4.3850422
+    },
+    {
+      "type": "node",
+      "id": 26083654,
+      "lat": 50.8153625,
+      "lon": 4.3855258
+    },
+    {
+      "type": "node",
+      "id": 26083655,
+      "lat": 50.8153026,
+      "lon": 4.3861787
+    },
+    {
+      "type": "node",
+      "id": 26083656,
+      "lat": 50.8153456,
+      "lon": 4.3866101,
+      "tags": {
+        "traffic_calming": "hump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26083657,
+      "lat": 50.8153624,
+      "lon": 4.3869205
+    },
+    {
+      "type": "node",
+      "id": 26083658,
+      "lat": 50.8154665,
+      "lon": 4.3874068
+    },
+    {
+      "type": "node",
+      "id": 26083659,
+      "lat": 50.8155178,
+      "lon": 4.3855644
+    },
+    {
+      "type": "node",
+      "id": 26083660,
+      "lat": 50.8155068,
+      "lon": 4.3858229
+    },
+    {
+      "type": "node",
+      "id": 26083661,
+      "lat": 50.815465,
+      "lon": 4.3861597
+    },
+    {
+      "type": "node",
+      "id": 26083662,
+      "lat": 50.8152235,
+      "lon": 4.3886195
+    },
+    {
+      "type": "node",
+      "id": 26083663,
+      "lat": 50.8188693,
+      "lon": 4.3873473
+    },
+    {
+      "type": "node",
+      "id": 26083664,
+      "lat": 50.8192499,
+      "lon": 4.3883099
+    },
+    {
+      "type": "node",
+      "id": 26083665,
+      "lat": 50.8196671,
+      "lon": 4.3893661
+    },
+    {
+      "type": "node",
+      "id": 26085778,
+      "lat": 50.8145988,
+      "lon": 4.3900119
+    },
+    {
+      "type": "node",
+      "id": 26085779,
+      "lat": 50.8151829,
+      "lon": 4.390183
+    },
+    {
+      "type": "node",
+      "id": 26085780,
+      "lat": 50.8141734,
+      "lon": 4.3884251
+    },
+    {
+      "type": "node",
+      "id": 26085781,
+      "lat": 50.8143104,
+      "lon": 4.3900634
+    },
+    {
+      "type": "node",
+      "id": 26085782,
+      "lat": 50.8139291,
+      "lon": 4.3903522
+    },
+    {
+      "type": "node",
+      "id": 26085783,
+      "lat": 50.8135988,
+      "lon": 4.3907171
+    },
+    {
+      "type": "node",
+      "id": 26085784,
+      "lat": 50.8134172,
+      "lon": 4.3909118
+    },
+    {
+      "type": "node",
+      "id": 26085984,
+      "lat": 50.8130124,
+      "lon": 4.3913967
+    },
+    {
+      "type": "node",
+      "id": 26085985,
+      "lat": 50.8129078,
+      "lon": 4.3909836
+    },
+    {
+      "type": "node",
+      "id": 26085986,
+      "lat": 50.8130012,
+      "lon": 4.3909412
+    },
+    {
+      "type": "node",
+      "id": 26085987,
+      "lat": 50.8132831,
+      "lon": 4.3925061
+    },
+    {
+      "type": "node",
+      "id": 26085988,
+      "lat": 50.8136389,
+      "lon": 4.3938611
+    },
+    {
+      "type": "node",
+      "id": 26085995,
+      "lat": 50.8120927,
+      "lon": 4.3922501
+    },
+    {
+      "type": "node",
+      "id": 26085996,
+      "lat": 50.8125431,
+      "lon": 4.3910271
+    },
+    {
+      "type": "node",
+      "id": 26085998,
+      "lat": 50.8127734,
+      "lon": 4.3892062
+    },
+    {
+      "type": "node",
+      "id": 26085999,
+      "lat": 50.812272,
+      "lon": 4.3894515
+    },
+    {
+      "type": "node",
+      "id": 26086000,
+      "lat": 50.8112079,
+      "lon": 4.389949,
+      "tags": {
+        "highway": "mini_roundabout"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26086002,
+      "lat": 50.8115797,
+      "lon": 4.3917369
+    },
+    {
+      "type": "node",
+      "id": 26086006,
+      "lat": 50.8127074,
+      "lon": 4.3881351
+    },
+    {
+      "type": "node",
+      "id": 26086009,
+      "lat": 50.8134292,
+      "lon": 4.3876164
+    },
+    {
+      "type": "node",
+      "id": 26086012,
+      "lat": 50.8136117,
+      "lon": 4.38768
+    },
+    {
+      "type": "node",
+      "id": 26086013,
+      "lat": 50.8138451,
+      "lon": 4.3875012
+    },
+    {
+      "type": "node",
+      "id": 26086014,
+      "lat": 50.8137598,
+      "lon": 4.3874088
+    },
+    {
+      "type": "node",
+      "id": 26086015,
+      "lat": 50.814601,
+      "lon": 4.3869398
+    },
+    {
+      "type": "node",
+      "id": 26086109,
+      "lat": 50.8106668,
+      "lon": 4.3924237
+    },
+    {
+      "type": "node",
+      "id": 26086287,
+      "lat": 50.8120056,
+      "lon": 4.3853889
+    },
+    {
+      "type": "node",
+      "id": 26086289,
+      "lat": 50.8112614,
+      "lon": 4.3858444
+    },
+    {
+      "type": "node",
+      "id": 250854862,
+      "lat": 50.8157223,
+      "lon": 4.3896947
+    },
+    {
+      "type": "node",
+      "id": 250854863,
+      "lat": 50.8155753,
+      "lon": 4.389784
+    },
+    {
+      "type": "node",
+      "id": 250854864,
+      "lat": 50.8154675,
+      "lon": 4.3901215,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 250854913,
+      "lat": 50.8152412,
+      "lon": 4.3842568
+    },
+    {
+      "type": "node",
+      "id": 370859072,
+      "lat": 50.8121746,
+      "lon": 4.3921362
+    },
+    {
+      "type": "node",
+      "id": 496028555,
+      "lat": 50.8165412,
+      "lon": 4.3920325
+    },
+    {
+      "type": "node",
+      "id": 496028587,
+      "lat": 50.8158108,
+      "lon": 4.3899972
+    },
+    {
+      "type": "node",
+      "id": 496028596,
+      "lat": 50.815824,
+      "lon": 4.3898844
+    },
+    {
+      "type": "node",
+      "id": 496028601,
+      "lat": 50.8158009,
+      "lon": 4.389782
+    },
+    {
+      "type": "node",
+      "id": 496028603,
+      "lat": 50.81569,
+      "lon": 4.389688
+    },
+    {
+      "type": "node",
+      "id": 496028608,
+      "lat": 50.8155981,
+      "lon": 4.3897424
+    },
+    {
+      "type": "node",
+      "id": 496028612,
+      "lat": 50.8155529,
+      "lon": 4.3898873
+    },
+    {
+      "type": "node",
+      "id": 496028617,
+      "lat": 50.8155548,
+      "lon": 4.3899423
+    },
+    {
+      "type": "node",
+      "id": 496028625,
+      "lat": 50.8156072,
+      "lon": 4.3900755
+    },
+    {
+      "type": "node",
+      "id": 496028628,
+      "lat": 50.8157197,
+      "lon": 4.3901126
+    },
+    {
+      "type": "node",
+      "id": 1032191847,
+      "lat": 50.8165355,
+      "lon": 4.3892661
+    },
+    {
+      "type": "node",
+      "id": 1463779427,
+      "lat": 50.8170283,
+      "lon": 4.3815319,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1464314813,
+      "lat": 50.8190451,
+      "lon": 4.3834625
+    },
+    {
+      "type": "node",
+      "id": 1466702678,
+      "lat": 50.8180303,
+      "lon": 4.3849158
+    },
+    {
+      "type": "node",
+      "id": 1466702722,
+      "lat": 50.818185,
+      "lon": 4.3849504
+    },
+    {
+      "type": "node",
+      "id": 1466702754,
+      "lat": 50.8183109,
+      "lon": 4.3844011,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1466702781,
+      "lat": 50.8184162,
+      "lon": 4.3846085
+    },
+    {
+      "type": "node",
+      "id": 1468163911,
+      "lat": 50.8175903,
+      "lon": 4.3827852,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "traffic_calming": "table"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1468163971,
+      "lat": 50.8178233,
+      "lon": 4.3851212
+    },
+    {
+      "type": "node",
+      "id": 1468185318,
+      "lat": 50.8155807,
+      "lon": 4.3837091
+    },
+    {
+      "type": "node",
+      "id": 1468185336,
+      "lat": 50.8158,
+      "lon": 4.3837613
+    },
+    {
+      "type": "node",
+      "id": 1468185360,
+      "lat": 50.8160406,
+      "lon": 4.3844252
+    },
+    {
+      "type": "node",
+      "id": 1470030936,
+      "lat": 50.8153221,
+      "lon": 4.3858239
+    },
+    {
+      "type": "node",
+      "id": 1470030938,
+      "lat": 50.8154024,
+      "lon": 4.3845146
+    },
+    {
+      "type": "node",
+      "id": 1470031272,
+      "lat": 50.8166478,
+      "lon": 4.3862716
+    },
+    {
+      "type": "node",
+      "id": 1470031275,
+      "lat": 50.816664,
+      "lon": 4.3861523
+    },
+    {
+      "type": "node",
+      "id": 1470031277,
+      "lat": 50.8167196,
+      "lon": 4.3863009
+    },
+    {
+      "type": "node",
+      "id": 1470625291,
+      "lat": 50.8138308,
+      "lon": 4.3844205,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470625294,
+      "lat": 50.8140728,
+      "lon": 4.3858014,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470625297,
+      "lat": 50.814134,
+      "lon": 4.3854243,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470625299,
+      "lat": 50.8142571,
+      "lon": 4.3858332,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470625300,
+      "lat": 50.8143105,
+      "lon": 4.3855293,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470629065,
+      "lat": 50.8148306,
+      "lon": 4.3879527,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470629066,
+      "lat": 50.8148735,
+      "lon": 4.3877446,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470629070,
+      "lat": 50.8148696,
+      "lon": 4.3879224
+    },
+    {
+      "type": "node",
+      "id": 1470629071,
+      "lat": 50.8148624,
+      "lon": 4.3878764
+    },
+    {
+      "type": "node",
+      "id": 1470629072,
+      "lat": 50.8148793,
+      "lon": 4.3879429
+    },
+    {
+      "type": "node",
+      "id": 1470629074,
+      "lat": 50.8148924,
+      "lon": 4.387798
+    },
+    {
+      "type": "node",
+      "id": 1470629075,
+      "lat": 50.8149074,
+      "lon": 4.3879674
+    },
+    {
+      "type": "node",
+      "id": 1470629076,
+      "lat": 50.8149174,
+      "lon": 4.3877868
+    },
+    {
+      "type": "node",
+      "id": 1470629077,
+      "lat": 50.8149236,
+      "lon": 4.3879695
+    },
+    {
+      "type": "node",
+      "id": 1470629078,
+      "lat": 50.8149538,
+      "lon": 4.3879525
+    },
+    {
+      "type": "node",
+      "id": 1470629079,
+      "lat": 50.8149714,
+      "lon": 4.3878357
+    },
+    {
+      "type": "node",
+      "id": 1470629080,
+      "lat": 50.8149769,
+      "lon": 4.3878604
+    },
+    {
+      "type": "node",
+      "id": 1470629081,
+      "lat": 50.8149817,
+      "lon": 4.3880225,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470629082,
+      "lat": 50.8150195,
+      "lon": 4.3877986,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1470629083,
+      "lat": 50.8163435,
+      "lon": 4.3875739
+    },
+    {
+      "type": "node",
+      "id": 1472947751,
+      "lat": 50.8204463,
+      "lon": 4.3851903,
+      "tags": {
+        "crossing": "traffic_signals",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "traffic_signals:sound": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1474010349,
+      "lat": 50.8194339,
+      "lon": 4.3864032
+    },
+    {
+      "type": "node",
+      "id": 1474010371,
+      "lat": 50.8194731,
+      "lon": 4.3864713,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1477760625,
+      "lat": 50.8188288,
+      "lon": 4.3872625,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1477766363,
+      "lat": 50.8174263,
+      "lon": 4.3881548,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1477766364,
+      "lat": 50.8174805,
+      "lon": 4.3881874
+    },
+    {
+      "type": "node",
+      "id": 1477766366,
+      "lat": 50.8188258,
+      "lon": 4.3873912,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478778135,
+      "lat": 50.8155766,
+      "lon": 4.3895852,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478778151,
+      "lat": 50.8158392,
+      "lon": 4.3902817,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478778162,
+      "lat": 50.815893,
+      "lon": 4.3897604,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478849975,
+      "lat": 50.816445,
+      "lon": 4.3915569,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478850148,
+      "lat": 50.817542,
+      "lon": 4.3902955
+    },
+    {
+      "type": "node",
+      "id": 1478906321,
+      "lat": 50.8174532,
+      "lon": 4.3884678
+    },
+    {
+      "type": "node",
+      "id": 1478906350,
+      "lat": 50.8176378,
+      "lon": 4.3901827,
+      "tags": {
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478906491,
+      "lat": 50.8179522,
+      "lon": 4.3898184
+    },
+    {
+      "type": "node",
+      "id": 1478906616,
+      "lat": 50.818601,
+      "lon": 4.3890637
+    },
+    {
+      "type": "node",
+      "id": 1478906764,
+      "lat": 50.819204,
+      "lon": 4.3883599,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1481421813,
+      "lat": 50.8176234,
+      "lon": 4.391408
+    },
+    {
+      "type": "node",
+      "id": 1609440276,
+      "lat": 50.8118267,
+      "lon": 4.3926797
+    },
+    {
+      "type": "node",
+      "id": 1609440278,
+      "lat": 50.8119677,
+      "lon": 4.3924413
+    },
+    {
+      "type": "node",
+      "id": 1609440284,
+      "lat": 50.812866,
+      "lon": 4.3915858
+    },
+    {
+      "type": "node",
+      "id": 1711730590,
+      "lat": 50.8126624,
+      "lon": 4.3917731
+    },
+    {
+      "type": "node",
+      "id": 1711730595,
+      "lat": 50.812872,
+      "lon": 4.3909895,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1711730649,
+      "lat": 50.8130584,
+      "lon": 4.3915323
+    },
+    {
+      "type": "node",
+      "id": 1711730673,
+      "lat": 50.8131116,
+      "lon": 4.3918386
+    },
+    {
+      "type": "node",
+      "id": 1711730822,
+      "lat": 50.8133224,
+      "lon": 4.3926503
+    },
+    {
+      "type": "node",
+      "id": 1711731032,
+      "lat": 50.8135712,
+      "lon": 4.3935999
+    },
+    {
+      "type": "node",
+      "id": 1711943875,
+      "lat": 50.8145947,
+      "lon": 4.3898585
+    },
+    {
+      "type": "node",
+      "id": 1711943892,
+      "lat": 50.8147356,
+      "lon": 4.3900332
+    },
+    {
+      "type": "node",
+      "id": 1711943952,
+      "lat": 50.8150808,
+      "lon": 4.3901623
+    },
+    {
+      "type": "node",
+      "id": 1711944000,
+      "lat": 50.8153106,
+      "lon": 4.390168
+    },
+    {
+      "type": "node",
+      "id": 1711944028,
+      "lat": 50.8155207,
+      "lon": 4.3900797
+    },
+    {
+      "type": "node",
+      "id": 1722585841,
+      "lat": 50.8113097,
+      "lon": 4.3899037,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1722585842,
+      "lat": 50.811483,
+      "lon": 4.3918223
+    },
+    {
+      "type": "node",
+      "id": 1722585845,
+      "lat": 50.8116737,
+      "lon": 4.3916662
+    },
+    {
+      "type": "node",
+      "id": 1722585848,
+      "lat": 50.8117933,
+      "lon": 4.3896774
+    },
+    {
+      "type": "node",
+      "id": 1722585852,
+      "lat": 50.8121314,
+      "lon": 4.3913209
+    },
+    {
+      "type": "node",
+      "id": 1722585853,
+      "lat": 50.8121925,
+      "lon": 4.3894897
+    },
+    {
+      "type": "node",
+      "id": 1722585854,
+      "lat": 50.8126859,
+      "lon": 4.3909824
+    },
+    {
+      "type": "node",
+      "id": 1722585855,
+      "lat": 50.8128243,
+      "lon": 4.388997,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way",
+        "traffic_sign:backward": "BE:B1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1722585856,
+      "lat": 50.8128581,
+      "lon": 4.3893583,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way",
+        "traffic_sign:forward": "BE:B1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1724611715,
+      "lat": 50.8108625,
+      "lon": 4.3922885
+    },
+    {
+      "type": "node",
+      "id": 1724619032,
+      "lat": 50.8129468,
+      "lon": 4.3891268,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way",
+        "traffic_sign:backward": "BE:B1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1724619186,
+      "lat": 50.8135494,
+      "lon": 4.3888079
+    },
+    {
+      "type": "node",
+      "id": 1724619214,
+      "lat": 50.813675,
+      "lon": 4.3906364
+    },
+    {
+      "type": "node",
+      "id": 1724619290,
+      "lat": 50.8141037,
+      "lon": 4.390181
+    },
+    {
+      "type": "node",
+      "id": 1724619324,
+      "lat": 50.8144633,
+      "lon": 4.3900106
+    },
+    {
+      "type": "node",
+      "id": 1725442494,
+      "lat": 50.8123824,
+      "lon": 4.3893981
+    },
+    {
+      "type": "node",
+      "id": 1725442586,
+      "lat": 50.8124911,
+      "lon": 4.387081
+    },
+    {
+      "type": "node",
+      "id": 1725442596,
+      "lat": 50.8125125,
+      "lon": 4.3871839,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1725442610,
+      "lat": 50.812518,
+      "lon": 4.3869827
+    },
+    {
+      "type": "node",
+      "id": 1725442650,
+      "lat": 50.812562,
+      "lon": 4.3869471,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1725550261,
+      "lat": 50.8134931,
+      "lon": 4.3876368
+    },
+    {
+      "type": "node",
+      "id": 1725550272,
+      "lat": 50.8135274,
+      "lon": 4.3875327
+    },
+    {
+      "type": "node",
+      "id": 1725550278,
+      "lat": 50.8135567,
+      "lon": 4.3876928
+    },
+    {
+      "type": "node",
+      "id": 1725550310,
+      "lat": 50.8137104,
+      "lon": 4.3874137
+    },
+    {
+      "type": "node",
+      "id": 1725550319,
+      "lat": 50.8137955,
+      "lon": 4.3875423
+    },
+    {
+      "type": "node",
+      "id": 1725550324,
+      "lat": 50.813801,
+      "lon": 4.3874294
+    },
+    {
+      "type": "node",
+      "id": 1725550357,
+      "lat": 50.8138988,
+      "lon": 4.3874666
+    },
+    {
+      "type": "node",
+      "id": 1725550484,
+      "lat": 50.8141331,
+      "lon": 4.3856695
+    },
+    {
+      "type": "node",
+      "id": 1725550489,
+      "lat": 50.8141336,
+      "lon": 4.385622
+    },
+    {
+      "type": "node",
+      "id": 1725550491,
+      "lat": 50.8141452,
+      "lon": 4.3857131
+    },
+    {
+      "type": "node",
+      "id": 1725550493,
+      "lat": 50.8141466,
+      "lon": 4.385579
+    },
+    {
+      "type": "node",
+      "id": 1725550496,
+      "lat": 50.8141696,
+      "lon": 4.3855485
+    },
+    {
+      "type": "node",
+      "id": 1725550498,
+      "lat": 50.8141593,
+      "lon": 4.385736
+    },
+    {
+      "type": "node",
+      "id": 1725550503,
+      "lat": 50.8142183,
+      "lon": 4.3855387
+    },
+    {
+      "type": "node",
+      "id": 1725550506,
+      "lat": 50.8141966,
+      "lon": 4.3857588
+    },
+    {
+      "type": "node",
+      "id": 1725550537,
+      "lat": 50.8142358,
+      "lon": 4.3857458
+    },
+    {
+      "type": "node",
+      "id": 1725550543,
+      "lat": 50.8142592,
+      "lon": 4.3855814
+    },
+    {
+      "type": "node",
+      "id": 1725550544,
+      "lat": 50.8142585,
+      "lon": 4.385715
+    },
+    {
+      "type": "node",
+      "id": 1725550546,
+      "lat": 50.8142714,
+      "lon": 4.3856247
+    },
+    {
+      "type": "node",
+      "id": 1725550552,
+      "lat": 50.8142712,
+      "lon": 4.3856721
+    },
+    {
+      "type": "node",
+      "id": 1727130913,
+      "lat": 50.8114211,
+      "lon": 4.3857902
+    },
+    {
+      "type": "node",
+      "id": 1727130914,
+      "lat": 50.8119371,
+      "lon": 4.385436,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1727130917,
+      "lat": 50.8121084,
+      "lon": 4.3853146,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1727130986,
+      "lat": 50.8130532,
+      "lon": 4.3866684
+    },
+    {
+      "type": "node",
+      "id": 1727131005,
+      "lat": 50.8131636,
+      "lon": 4.3845708
+    },
+    {
+      "type": "node",
+      "id": 1727131012,
+      "lat": 50.813222,
+      "lon": 4.3865584
+    },
+    {
+      "type": "node",
+      "id": 1727131019,
+      "lat": 50.8133197,
+      "lon": 4.3844686
+    },
+    {
+      "type": "node",
+      "id": 1727133386,
+      "lat": 50.8123651,
+      "lon": 4.3851349
+    },
+    {
+      "type": "node",
+      "id": 1727133420,
+      "lat": 50.8134353,
+      "lon": 4.3863941
+    },
+    {
+      "type": "node",
+      "id": 1868711311,
+      "lat": 50.8183909,
+      "lon": 4.3844092,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1868711314,
+      "lat": 50.8183868,
+      "lon": 4.3845642,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "incorrect"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1868711317,
+      "lat": 50.8183174,
+      "lon": 4.3845373,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "incorrect"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1901867302,
+      "lat": 50.817372,
+      "lon": 4.3886124,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1901867306,
+      "lat": 50.817526,
+      "lon": 4.3884797,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2219403876,
+      "lat": 50.8136857,
+      "lon": 4.3842358,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2382589350,
+      "lat": 50.8192959,
+      "lon": 4.3882599,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2468792498,
+      "lat": 50.8161488,
+      "lon": 4.3895701
+    },
+    {
+      "type": "node",
+      "id": 2641225660,
+      "lat": 50.8138464,
+      "lon": 4.3844922,
+      "tags": {
+        "bus": "yes",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2650969364,
+      "lat": 50.8166596,
+      "lon": 4.3891754
+    },
+    {
+      "type": "node",
+      "id": 3132579288,
+      "lat": 50.8113563,
+      "lon": 4.3858196
+    },
+    {
+      "type": "node",
+      "id": 3132579293,
+      "lat": 50.8114903,
+      "lon": 4.38575
+    },
+    {
+      "type": "node",
+      "id": 3132579309,
+      "lat": 50.8134755,
+      "lon": 4.3843803
+    },
+    {
+      "type": "node",
+      "id": 3132579316,
+      "lat": 50.8135284,
+      "lon": 4.3843166
+    },
+    {
+      "type": "node",
+      "id": 3132579327,
+      "lat": 50.8137971,
+      "lon": 4.3842639,
+      "tags": {
+        "crossing:barrier": "no",
+        "railway": "level_crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3132579432,
+      "lat": 50.813897,
+      "lon": 4.3841752,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3132579443,
+      "lat": 50.8144108,
+      "lon": 4.3840806
+    },
+    {
+      "type": "node",
+      "id": 3132579446,
+      "lat": 50.8145785,
+      "lon": 4.3840313
+    },
+    {
+      "type": "node",
+      "id": 3132579449,
+      "lat": 50.8147118,
+      "lon": 4.383975
+    },
+    {
+      "type": "node",
+      "id": 3132579455,
+      "lat": 50.8150411,
+      "lon": 4.3838726,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing:barrier": "no",
+        "railway": "level_crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3132579492,
+      "lat": 50.8169786,
+      "lon": 4.381441,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing:barrier": "no",
+        "railway": "level_crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3998976682,
+      "lat": 50.8168891,
+      "lon": 4.3921314,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4214151992,
+      "lat": 50.8139259,
+      "lon": 4.384169,
+      "tags": {
+        "bus": "yes",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4214151993,
+      "lat": 50.8159713,
+      "lon": 4.3906111,
+      "tags": {
+        "bus": "yes",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4214151994,
+      "lat": 50.8160215,
+      "lon": 4.3907454,
+      "tags": {
+        "bus": "yes",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4537416422,
+      "lat": 50.8139708,
+      "lon": 4.3849152,
+      "tags": {
+        "bus": "yes",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4551570465,
+      "lat": 50.8159576,
+      "lon": 4.3905765
+    },
+    {
+      "type": "node",
+      "id": 4970819013,
+      "lat": 50.8144943,
+      "lon": 4.3840601
+    },
+    {
+      "type": "node",
+      "id": 4970819014,
+      "lat": 50.8138475,
+      "lon": 4.3841888
+    },
+    {
+      "type": "node",
+      "id": 4970819016,
+      "lat": 50.8139033,
+      "lon": 4.3842197,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4970819017,
+      "lat": 50.8139497,
+      "lon": 4.3841632
+    },
+    {
+      "type": "node",
+      "id": 4970819018,
+      "lat": 50.8139534,
+      "lon": 4.3842058
+    },
+    {
+      "type": "node",
+      "id": 4970819019,
+      "lat": 50.8138545,
+      "lon": 4.3842332
+    },
+    {
+      "type": "node",
+      "id": 4970819020,
+      "lat": 50.8139974,
+      "lon": 4.3841756
+    },
+    {
+      "type": "node",
+      "id": 4970869075,
+      "lat": 50.8150387,
+      "lon": 4.3838596
+    },
+    {
+      "type": "node",
+      "id": 4970869076,
+      "lat": 50.8148948,
+      "lon": 4.3847387
+    },
+    {
+      "type": "node",
+      "id": 4972474391,
+      "lat": 50.8148708,
+      "lon": 4.3878308
+    },
+    {
+      "type": "node",
+      "id": 4972474392,
+      "lat": 50.814943,
+      "lon": 4.3877942
+    },
+    {
+      "type": "node",
+      "id": 4972474393,
+      "lat": 50.8149739,
+      "lon": 4.3879118
+    },
+    {
+      "type": "node",
+      "id": 4979580811,
+      "lat": 50.8136962,
+      "lon": 4.3842945,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4979580812,
+      "lat": 50.8135373,
+      "lon": 4.384374
+    },
+    {
+      "type": "node",
+      "id": 4979595159,
+      "lat": 50.8142168,
+      "lon": 4.3857568
+    },
+    {
+      "type": "node",
+      "id": 4979595160,
+      "lat": 50.8141769,
+      "lon": 4.3857517
+    },
+    {
+      "type": "node",
+      "id": 4979595161,
+      "lat": 50.8141934,
+      "lon": 4.3855367
+    },
+    {
+      "type": "node",
+      "id": 4979595162,
+      "lat": 50.8142412,
+      "lon": 4.3855542
+    },
+    {
+      "type": "node",
+      "id": 5060302277,
+      "lat": 50.8120178,
+      "lon": 4.3923646,
+      "tags": {
+        "bus": "yes",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5060302306,
+      "lat": 50.8118872,
+      "lon": 4.3925733,
+      "tags": {
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5101455014,
+      "lat": 50.8129973,
+      "lon": 4.3908836,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5101455015,
+      "lat": 50.8129102,
+      "lon": 4.3910547
+    },
+    {
+      "type": "node",
+      "id": 5101455016,
+      "lat": 50.812968,
+      "lon": 4.3912728,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5101455017,
+      "lat": 50.8130395,
+      "lon": 4.3914862,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5101455018,
+      "lat": 50.8129371,
+      "lon": 4.3914939,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5101455020,
+      "lat": 50.8133567,
+      "lon": 4.3909812,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5101467621,
+      "lat": 50.8133935,
+      "lon": 4.3908695
+    },
+    {
+      "type": "node",
+      "id": 5101467622,
+      "lat": 50.813348,
+      "lon": 4.3908599,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5305367197,
+      "lat": 50.8127358,
+      "lon": 4.3892246,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5305367198,
+      "lat": 50.8127161,
+      "lon": 4.3892348,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way",
+        "traffic_sign:backward": "BE:B1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5305367199,
+      "lat": 50.8128276,
+      "lon": 4.3890284,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5305367200,
+      "lat": 50.8129307,
+      "lon": 4.389135,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5305367201,
+      "lat": 50.8128549,
+      "lon": 4.3893288,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5305367202,
+      "lat": 50.8129007,
+      "lon": 4.3892034
+    },
+    {
+      "type": "node",
+      "id": 5305367203,
+      "lat": 50.812893,
+      "lon": 4.3892292
+    },
+    {
+      "type": "node",
+      "id": 5305367204,
+      "lat": 50.8128811,
+      "lon": 4.3892509
+    },
+    {
+      "type": "node",
+      "id": 5305367205,
+      "lat": 50.8128661,
+      "lon": 4.3892667
+    },
+    {
+      "type": "node",
+      "id": 5305367206,
+      "lat": 50.81283,
+      "lon": 4.3892769
+    },
+    {
+      "type": "node",
+      "id": 5305367207,
+      "lat": 50.8128116,
+      "lon": 4.3892697
+    },
+    {
+      "type": "node",
+      "id": 5305367208,
+      "lat": 50.8127952,
+      "lon": 4.3892546
+    },
+    {
+      "type": "node",
+      "id": 5305367209,
+      "lat": 50.8127821,
+      "lon": 4.3892328
+    },
+    {
+      "type": "node",
+      "id": 5305367210,
+      "lat": 50.8127697,
+      "lon": 4.3891743
+    },
+    {
+      "type": "node",
+      "id": 5305367211,
+      "lat": 50.8127722,
+      "lon": 4.3891422
+    },
+    {
+      "type": "node",
+      "id": 5305367212,
+      "lat": 50.8127807,
+      "lon": 4.3891128
+    },
+    {
+      "type": "node",
+      "id": 5305367213,
+      "lat": 50.8127945,
+      "lon": 4.3890888
+    },
+    {
+      "type": "node",
+      "id": 5305367214,
+      "lat": 50.8128121,
+      "lon": 4.3890725
+    },
+    {
+      "type": "node",
+      "id": 5305367215,
+      "lat": 50.8128509,
+      "lon": 4.3890674
+    },
+    {
+      "type": "node",
+      "id": 5305367216,
+      "lat": 50.8128685,
+      "lon": 4.3890777
+    },
+    {
+      "type": "node",
+      "id": 5305367217,
+      "lat": 50.8128837,
+      "lon": 4.3890954
+    },
+    {
+      "type": "node",
+      "id": 5305367218,
+      "lat": 50.8128952,
+      "lon": 4.389119
+    },
+    {
+      "type": "node",
+      "id": 5305367219,
+      "lat": 50.8129038,
+      "lon": 4.3891752
+    },
+    {
+      "type": "node",
+      "id": 5305367220,
+      "lat": 50.8128321,
+      "lon": 4.3890653
+    },
+    {
+      "type": "node",
+      "id": 5305368121,
+      "lat": 50.8128489,
+      "lon": 4.3892757
+    },
+    {
+      "type": "node",
+      "id": 5305368122,
+      "lat": 50.812902,
+      "lon": 4.3891467
+    },
+    {
+      "type": "node",
+      "id": 5322219427,
+      "lat": 50.8127707,
+      "lon": 4.3916918
+    },
+    {
+      "type": "node",
+      "id": 5322219428,
+      "lat": 50.8124874,
+      "lon": 4.3918944
+    },
+    {
+      "type": "node",
+      "id": 5322219429,
+      "lat": 50.8122586,
+      "lon": 4.3920585
+    },
+    {
+      "type": "node",
+      "id": 5327568885,
+      "lat": 50.813811,
+      "lon": 4.3843291,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5327630534,
+      "lat": 50.8153024,
+      "lon": 4.3841549,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5327630535,
+      "lat": 50.8151162,
+      "lon": 4.3844036,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5327630558,
+      "lat": 50.8151321,
+      "lon": 4.3842361,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5327630559,
+      "lat": 50.8151525,
+      "lon": 4.3842958,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5327630562,
+      "lat": 50.8150584,
+      "lon": 4.3839582,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5327630563,
+      "lat": 50.81505,
+      "lon": 4.3839178,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5327630566,
+      "lat": 50.8150681,
+      "lon": 4.3840049
+    },
+    {
+      "type": "node",
+      "id": 5327630570,
+      "lat": 50.8156319,
+      "lon": 4.3836354,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5327630576,
+      "lat": 50.815662,
+      "lon": 4.3835922,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5327639507,
+      "lat": 50.8152749,
+      "lon": 4.3843086,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5327639508,
+      "lat": 50.8152893,
+      "lon": 4.3843307,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5327639509,
+      "lat": 50.8153444,
+      "lon": 4.3844154
+    },
+    {
+      "type": "node",
+      "id": 5327639510,
+      "lat": 50.8154496,
+      "lon": 4.3847632,
+      "tags": {
+        "traffic_calming": "hump"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5341208828,
+      "lat": 50.8190563,
+      "lon": 4.3834476,
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5386288831,
+      "lat": 50.8141432,
+      "lon": 4.385457,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5386288832,
+      "lat": 50.8140598,
+      "lon": 4.3858136,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5386288833,
+      "lat": 50.8142662,
+      "lon": 4.3858624,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5386288834,
+      "lat": 50.8143232,
+      "lon": 4.3855098,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5554217011,
+      "lat": 50.8152823,
+      "lon": 4.3887933,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5554217012,
+      "lat": 50.8152988,
+      "lon": 4.3885539,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5554237173,
+      "lat": 50.8157527,
+      "lon": 4.3897135
+    },
+    {
+      "type": "node",
+      "id": 5554237174,
+      "lat": 50.8157794,
+      "lon": 4.3897431
+    },
+    {
+      "type": "node",
+      "id": 5554237175,
+      "lat": 50.8157421,
+      "lon": 4.3901009
+    },
+    {
+      "type": "node",
+      "id": 5554237176,
+      "lat": 50.8156345,
+      "lon": 4.3901006
+    },
+    {
+      "type": "node",
+      "id": 5554237177,
+      "lat": 50.8156648,
+      "lon": 4.390115
+    },
+    {
+      "type": "node",
+      "id": 5554237179,
+      "lat": 50.8155655,
+      "lon": 4.3899947
+    },
+    {
+      "type": "node",
+      "id": 5554237180,
+      "lat": 50.8155599,
+      "lon": 4.3898334
+    },
+    {
+      "type": "node",
+      "id": 5554237181,
+      "lat": 50.8156575,
+      "lon": 4.3896936
+    },
+    {
+      "type": "node",
+      "id": 5554237182,
+      "lat": 50.8156059,
+      "lon": 4.3896619,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5554237183,
+      "lat": 50.815557,
+      "lon": 4.3900559,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5554237184,
+      "lat": 50.8157768,
+      "lon": 4.3901245,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5554237185,
+      "lat": 50.8158434,
+      "lon": 4.3898029,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5554237186,
+      "lat": 50.8158222,
+      "lon": 4.3899422
+    },
+    {
+      "type": "node",
+      "id": 5554237187,
+      "lat": 50.8157906,
+      "lon": 4.3900454
+    },
+    {
+      "type": "node",
+      "id": 5565180549,
+      "lat": 50.8170827,
+      "lon": 4.3908236
+    },
+    {
+      "type": "node",
+      "id": 5669215455,
+      "lat": 50.81674,
+      "lon": 4.3861791
+    },
+    {
+      "type": "node",
+      "id": 5669215456,
+      "lat": 50.8167481,
+      "lon": 4.386217
+    },
+    {
+      "type": "node",
+      "id": 5669215457,
+      "lat": 50.816707,
+      "lon": 4.3863087
+    },
+    {
+      "type": "node",
+      "id": 5669215458,
+      "lat": 50.8166417,
+      "lon": 4.3862512
+    },
+    {
+      "type": "node",
+      "id": 5669215459,
+      "lat": 50.8166871,
+      "lon": 4.3861391
+    },
+    {
+      "type": "node",
+      "id": 5669215460,
+      "lat": 50.8167478,
+      "lon": 4.3862371
+    },
+    {
+      "type": "node",
+      "id": 5669215461,
+      "lat": 50.8167385,
+      "lon": 4.3862743
+    },
+    {
+      "type": "node",
+      "id": 5669215462,
+      "lat": 50.81673,
+      "lon": 4.3862894
+    },
+    {
+      "type": "node",
+      "id": 5669215463,
+      "lat": 50.8166935,
+      "lon": 4.3863113
+    },
+    {
+      "type": "node",
+      "id": 5669215464,
+      "lat": 50.81668,
+      "lon": 4.3863085
+    },
+    {
+      "type": "node",
+      "id": 5669215465,
+      "lat": 50.8166564,
+      "lon": 4.386288
+    },
+    {
+      "type": "node",
+      "id": 5669215466,
+      "lat": 50.8166392,
+      "lon": 4.3862291
+    },
+    {
+      "type": "node",
+      "id": 5669215467,
+      "lat": 50.8166451,
+      "lon": 4.3861855
+    },
+    {
+      "type": "node",
+      "id": 5669215468,
+      "lat": 50.8166532,
+      "lon": 4.3861669
+    },
+    {
+      "type": "node",
+      "id": 5669215469,
+      "lat": 50.8166994,
+      "lon": 4.3861389
+    },
+    {
+      "type": "node",
+      "id": 5669215470,
+      "lat": 50.8167115,
+      "lon": 4.3861431
+    },
+    {
+      "type": "node",
+      "id": 5669215471,
+      "lat": 50.8167323,
+      "lon": 4.3861638
+    },
+    {
+      "type": "node",
+      "id": 5669252221,
+      "lat": 50.8166062,
+      "lon": 4.3863111,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5669252222,
+      "lat": 50.8165916,
+      "lon": 4.3863262,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5669252223,
+      "lat": 50.8167439,
+      "lon": 4.3863604,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5669252224,
+      "lat": 50.8167532,
+      "lon": 4.3863862,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5669252225,
+      "lat": 50.816791,
+      "lon": 4.3861304,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5669252226,
+      "lat": 50.8167748,
+      "lon": 4.3861467,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5669252227,
+      "lat": 50.8166316,
+      "lon": 4.3860583,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5669252228,
+      "lat": 50.8166412,
+      "lon": 4.3860855,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5669252229,
+      "lat": 50.8174552,
+      "lon": 4.3883191,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5700040028,
+      "lat": 50.8181155,
+      "lon": 4.3849226,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5700040030,
+      "lat": 50.8177025,
+      "lon": 4.3852351,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5936520921,
+      "lat": 50.8204683,
+      "lon": 4.3851576,
+      "tags": {
+        "highway": "traffic_signals"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6058277348,
+      "lat": 50.8155132,
+      "lon": 4.3853578
+    },
+    {
+      "type": "node",
+      "id": 6058277349,
+      "lat": 50.8154112,
+      "lon": 4.3853155
+    },
+    {
+      "type": "node",
+      "id": 6058277351,
+      "lat": 50.8153134,
+      "lon": 4.3863623
+    },
+    {
+      "type": "node",
+      "id": 6058277352,
+      "lat": 50.8154137,
+      "lon": 4.3863917
+    },
+    {
+      "type": "node",
+      "id": 6167037764,
+      "lat": 50.8178016,
+      "lon": 4.39123
+    },
+    {
+      "type": "node",
+      "id": 6284439198,
+      "lat": 50.8154422,
+      "lon": 4.3851477
+    },
+    {
+      "type": "node",
+      "id": 6284439199,
+      "lat": 50.8154983,
+      "lon": 4.3851502
+    },
+    {
+      "type": "node",
+      "id": 6284439202,
+      "lat": 50.8154341,
+      "lon": 4.3872929,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6418483655,
+      "lat": 50.8187681,
+      "lon": 4.3838691
+    },
+    {
+      "type": "node",
+      "id": 6418483667,
+      "lat": 50.8191739,
+      "lon": 4.3898589
+    },
+    {
+      "type": "node",
+      "id": 6418483674,
+      "lat": 50.8191221,
+      "lon": 4.3899106
+    },
+    {
+      "type": "node",
+      "id": 6554793759,
+      "lat": 50.8182895,
+      "lon": 4.3845965
+    },
+    {
+      "type": "node",
+      "id": 6554828959,
+      "lat": 50.8176656,
+      "lon": 4.3853598
+    },
+    {
+      "type": "node",
+      "id": 6554828961,
+      "lat": 50.8181007,
+      "lon": 4.3849172,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6554828962,
+      "lat": 50.8180572,
+      "lon": 4.3849065
+    },
+    {
+      "type": "node",
+      "id": 6554847798,
+      "lat": 50.8180243,
+      "lon": 4.385705,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6554847799,
+      "lat": 50.8181533,
+      "lon": 4.385099,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6554868232,
+      "lat": 50.8180193,
+      "lon": 4.3858557
+    },
+    {
+      "type": "node",
+      "id": 6554868233,
+      "lat": 50.8180424,
+      "lon": 4.3858938,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6554868238,
+      "lat": 50.817985,
+      "lon": 4.3858879,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6554868239,
+      "lat": 50.817386,
+      "lon": 4.3881306
+    },
+    {
+      "type": "node",
+      "id": 6554868404,
+      "lat": 50.8189116,
+      "lon": 4.3873037,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6554868405,
+      "lat": 50.8194711,
+      "lon": 4.3865931,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6554868406,
+      "lat": 50.819554,
+      "lon": 4.3864825,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6554868407,
+      "lat": 50.8175744,
+      "lon": 4.388474
+    },
+    {
+      "type": "node",
+      "id": 6721516476,
+      "lat": 50.8145982,
+      "lon": 4.389945,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6721516477,
+      "lat": 50.8145978,
+      "lon": 4.3899079,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6721516478,
+      "lat": 50.8142053,
+      "lon": 4.3885401,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6721594150,
+      "lat": 50.8113275,
+      "lon": 4.3898954,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6721594151,
+      "lat": 50.8118388,
+      "lon": 4.3896565,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6721594152,
+      "lat": 50.8123243,
+      "lon": 4.3894275,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6721610035,
+      "lat": 50.8125071,
+      "lon": 4.387152,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6725061889,
+      "lat": 50.8169245,
+      "lon": 4.3870333,
+      "tags": {
+        "crossing": "marked",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6725061914,
+      "lat": 50.8196314,
+      "lon": 4.3894017,
+      "tags": {
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6725107535,
+      "lat": 50.8170365,
+      "lon": 4.38155,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6725169942,
+      "lat": 50.8166674,
+      "lon": 4.3863006
+    },
+    {
+      "type": "node",
+      "id": 6725169943,
+      "lat": 50.8166403,
+      "lon": 4.3862066
+    },
+    {
+      "type": "node",
+      "id": 6725169944,
+      "lat": 50.8166751,
+      "lon": 4.3861436
+    },
+    {
+      "type": "node",
+      "id": 6725169945,
+      "lat": 50.8167227,
+      "lon": 4.3861516
+    },
+    {
+      "type": "node",
+      "id": 6725169946,
+      "lat": 50.8167455,
+      "lon": 4.3861973
+    },
+    {
+      "type": "node",
+      "id": 6725169947,
+      "lat": 50.8167445,
+      "lon": 4.3862566
+    },
+    {
+      "type": "node",
+      "id": 6725173733,
+      "lat": 50.8154287,
+      "lon": 4.3872649,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6725173734,
+      "lat": 50.8153206,
+      "lon": 4.3865211
+    },
+    {
+      "type": "node",
+      "id": 6725173735,
+      "lat": 50.8153849,
+      "lon": 4.3865307
+    },
+    {
+      "type": "node",
+      "id": 6725206202,
+      "lat": 50.8148641,
+      "lon": 4.3879001
+    },
+    {
+      "type": "node",
+      "id": 6725206203,
+      "lat": 50.8148647,
+      "lon": 4.3878527
+    },
+    {
+      "type": "node",
+      "id": 6725206204,
+      "lat": 50.8148802,
+      "lon": 4.3878122
+    },
+    {
+      "type": "node",
+      "id": 6725206205,
+      "lat": 50.8149544,
+      "lon": 4.3878045
+    },
+    {
+      "type": "node",
+      "id": 6725206206,
+      "lat": 50.8149305,
+      "lon": 4.3877882
+    },
+    {
+      "type": "node",
+      "id": 6725206207,
+      "lat": 50.8149045,
+      "lon": 4.3877902
+    },
+    {
+      "type": "node",
+      "id": 6725206208,
+      "lat": 50.814964,
+      "lon": 4.3878186
+    },
+    {
+      "type": "node",
+      "id": 6725206209,
+      "lat": 50.8149777,
+      "lon": 4.3878864
+    },
+    {
+      "type": "node",
+      "id": 6725206210,
+      "lat": 50.8149657,
+      "lon": 4.3879345
+    },
+    {
+      "type": "node",
+      "id": 6725206211,
+      "lat": 50.8149394,
+      "lon": 4.3879644
+    },
+    {
+      "type": "node",
+      "id": 6725206212,
+      "lat": 50.8148923,
+      "lon": 4.3879583
+    },
+    {
+      "type": "node",
+      "id": 6725206213,
+      "lat": 50.8148136,
+      "lon": 4.3879663,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6725206214,
+      "lat": 50.8148642,
+      "lon": 4.3877173,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6725206215,
+      "lat": 50.8149903,
+      "lon": 4.388048,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6725206228,
+      "lat": 50.8150359,
+      "lon": 4.3877842,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6726907202,
+      "lat": 50.8125432,
+      "lon": 4.3869595,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6888390634,
+      "lat": 50.809922,
+      "lon": 4.392855
+    },
+    {
+      "type": "node",
+      "id": 7208946667,
+      "lat": 50.8145102,
+      "lon": 4.3870079,
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4306850,
+      "nodes": [
+        8092118,
+        5554237182,
+        1478778135,
+        5554217011,
+        26083662,
+        6725206215,
+        1470629081,
+        1470629078
+      ],
+      "tags": {
+        "cycleway:left": "shared_lane",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue de l'Université - Hogeschoollaan",
+        "name:fr": "Avenue de l'Université",
+        "name:nl": "Hogeschoollaan",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4306854,
+      "nodes": [
+        8092126,
+        496028601,
+        5554237174,
+        5554237173,
+        250854862,
+        496028603,
+        5554237181,
+        8092118
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "name": "Avenue de la Couronne - Kroonlaan",
+        "name:fr": "Avenue de la Couronne",
+        "name:nl": "Kroonlaan",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4308875,
+      "nodes": [
+        26080600,
+        3132579492,
+        1463779427,
+        6725107535,
+        1468163911,
+        26080599,
+        1466702754,
+        26080598,
+        1868711314,
+        1466702781,
+        1474010349,
+        1474010371,
+        26080219
+      ],
+      "tags": {
+        "cycleway:left": "opposite",
+        "highway": "residential",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Rue Élise - Elizastraat",
+        "name:etymology:wikidata": "Q89490193",
+        "name:fr": "Rue Élise",
+        "name:nl": "Elizastraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt",
+        "wikidata": "Q85084326"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4309664,
+      "nodes": [
+        8092126,
+        5554237185,
+        1478778162,
+        2468792498,
+        1032191847,
+        2650969364,
+        1901867302,
+        26083599
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Chaussée de Boondael - Boondaalse Steenweg",
+        "name:fr": "Chaussée de Boondael",
+        "name:nl": "Boondaalse Steenweg",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4309665,
+      "nodes": [
+        26083597,
+        6554847798,
+        6554847799,
+        1466702722
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Chaussée de Boondael - Boondaalse Steenweg",
+        "name:fr": "Chaussée de Boondael",
+        "name:nl": "Boondaalse Steenweg",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4309687,
+      "nodes": [
+        26083597,
+        6554868232,
+        6554868233,
+        1477760625,
+        26083663
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Rue Maximilien - Maximilienstraat",
+        "name:fr": "Rue Maximilien",
+        "name:nl": "Maximilienstraat",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4309690,
+      "nodes": [
+        26083649,
+        6725061889,
+        1470629083,
+        5554217012,
+        26083662
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Rue des Hellènes - Hellenenstraat",
+        "name:fr": "Rue des Hellènes",
+        "name:nl": "Hellenenstraat",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4309691,
+      "nodes": [
+        8092115,
+        5936520921,
+        1472947751,
+        26080218,
+        6554868406,
+        26080219,
+        6554868405,
+        6554868404,
+        26083663,
+        1477766366,
+        6554868407,
+        1901867306,
+        1478906321,
+        26083599
+      ],
+      "tags": {
+        "addr:housenumber": "108",
+        "addr:street": "Avenue des Saisons - Jaargetijdenlaan",
+        "cycleway": "shared_lane",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue des Saisons - Jaargetijdenlaan",
+        "name:fr": "Avenue des Saisons",
+        "name:nl": "Jaargetijdenlaan",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4309937,
+      "nodes": [
+        4970869075,
+        3132579455,
+        5327630563,
+        5327630562,
+        5327630566,
+        5327630558,
+        5327630559,
+        26083651
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed:type": "BE:urban",
+        "name": "Square Albert Devèze - Albert Devèzesquare",
+        "name:etymology:wikidata": "Q457695",
+        "name:fr": "Square Albert Devèze",
+        "name:nl": "Albert Devèzesquare",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4309938,
+      "nodes": [
+        26083656,
+        6725173735,
+        6058277352,
+        26083661,
+        26083660,
+        26083659,
+        6058277348,
+        6284439199,
+        26083653
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Square des Latins - Latijnensquare",
+        "name:fr": "Square des Latins",
+        "name:nl": "Latijnensquare",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4309944,
+      "nodes": [
+        26083665,
+        6725061914,
+        6418483667,
+        6418483674,
+        6167037764,
+        1481421813,
+        3998976682,
+        8792368
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "cycleway:left": "opposite",
+        "cycleway:right": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Rue César Franck - César Franckstraat",
+        "name:etymology:wikidata": "Q50187",
+        "name:fr": "Rue César Franck",
+        "name:nl": "César Franckstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4309945,
+      "nodes": [
+        8792367,
+        1478849975,
+        5565180549,
+        1478850148,
+        1478906350,
+        1478906491,
+        1478906616,
+        1478906764,
+        26083664,
+        2382589350,
+        26080220
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Rue de l'Été - Zomerstraat",
+        "name:fr": "Rue de l'Été",
+        "name:nl": "Zomerstraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8139692,
+      "nodes": [
+        8092121,
+        5554237184,
+        1478778151,
+        4551570465,
+        4214151993,
+        4214151994,
+        8792367,
+        496028555
+      ],
+      "tags": {
+        "cycleway:both": "shared_lane",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Avenue de la Couronne - Kroonlaan",
+        "name:fr": "Avenue de la Couronne",
+        "name:nl": "Kroonlaan",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8139836,
+      "nodes": [
+        5305368122,
+        5305367200,
+        1724619032,
+        1724619186,
+        26085780,
+        6725206213,
+        1470629065,
+        1470629070
+      ],
+      "tags": {
+        "cycleway:left": "shared_lane",
+        "cycleway:right": "lane",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Avenue Général Médecin Derache - Generaal Geneesheer Derachelaan",
+        "name:etymology:wikidata": "Q85436049",
+        "name:fr": "Avenue Général Médecin Derache",
+        "name:nl": "Generaal Geneesheer Derachelaan",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8139862,
+      "nodes": [
+        1470030938,
+        5327639509,
+        5327639508,
+        5327639507,
+        250854913
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Square des Latins - Latijnensquare",
+        "name:fr": "Square des Latins",
+        "name:nl": "Latijnensquare",
+        "oneway": "yes",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8139863,
+      "nodes": [
+        26083656,
+        26083657,
+        6725173733,
+        6284439202,
+        26083658
+      ],
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Square des Latins - Latijnensquare",
+        "name:fr": "Square des Latins",
+        "name:nl": "Latijnensquare",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8382511,
+      "nodes": [
+        26085780,
+        6721516478,
+        1711943875,
+        6721516477,
+        6721516476,
+        26085778
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Rue des Égyptiens - Egyptenarenstraat",
+        "name:fr": "Rue des Égyptiens",
+        "name:nl": "Egyptenarenstraat",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8382518,
+      "nodes": [
+        8092119,
+        5554237183,
+        1711944028,
+        250854864,
+        1711944000,
+        26085779,
+        1711943952,
+        1711943892,
+        26085778,
+        1724619324,
+        26085781,
+        1724619290,
+        26085782,
+        1724619214,
+        26085783,
+        26085784
+      ],
+      "tags": {
+        "cycleway:left": "share_busway",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Chaussée de Boondael - Boondaalse Steenweg",
+        "name:fr": "Chaussée de Boondael",
+        "name:nl": "Boondaalse Steenweg",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8382536,
+      "nodes": [
+        26086013,
+        1725550324,
+        26086014,
+        1725550310,
+        1725550272,
+        26086009
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Square Robert Goldschmidt - Robert Goldschmidtsquare",
+        "name:etymology:wikidata": "Q1185434",
+        "name:fr": "Square Robert Goldschmidt",
+        "name:nl": "Robert Goldschmidtsquare",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8382537,
+      "nodes": [
+        26086009,
+        1725550261,
+        1725550278,
+        26086012,
+        1725550319,
+        26086013
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Square Robert Goldschmidt - Robert Goldschmidtsquare",
+        "name:etymology:wikidata": "Q1185434",
+        "name:fr": "Square Robert Goldschmidt",
+        "name:nl": "Robert Goldschmidtsquare",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8382541,
+      "nodes": [
+        5305367220,
+        5305367199,
+        1722585855,
+        26086006,
+        1725442596,
+        6721610035,
+        1725442586
+      ],
+      "tags": {
+        "description": "https://www.bruzz.be/samenleving/pierre-en-marie-curie-herenigd-2012-04-20",
+        "highway": "residential",
+        "name": "Avenue Pierre et Marie Curie - Pierre en Marie Curielaan",
+        "name:etymology:wikidata": "Q37463;Q7186",
+        "name:fr": "Avenue Pierre et Marie Curie",
+        "name:nl": "Pierre en Marie Curielaan",
+        "old_name": "Avenue Pierre Curie - Pierre Curielaan",
+        "old_name:fr": "Avenue Pierre Curie",
+        "old_name:nl": "Pierre Curielaan",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8382605,
+      "nodes": [
+        3132579309,
+        1727131019,
+        1727131005,
+        1727133386,
+        1727130917,
+        26086287,
+        1727130914,
+        3132579293,
+        1727130913,
+        3132579288,
+        26086289
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Avenue Adolphe Buyl - Adolphe Buyllaan",
+        "name:etymology:wikidata": "Q2824787",
+        "name:fr": "Avenue Adolphe Buyl",
+        "name:nl": "Adolphe Buyllaan",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31435616,
+      "nodes": [
+        26085985,
+        5101455015,
+        5101455016,
+        26085984
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Rue Volta - Voltastraat",
+        "name:fr": "Rue Volta",
+        "name:nl": "Voltastraat",
+        "oneway": "yes",
+        "oneway:bicycle": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32948168,
+      "nodes": [
+        26085985,
+        1711730595,
+        1722585854,
+        26085996,
+        1722585852,
+        1722585845,
+        26086002,
+        1722585842,
+        1724611715,
+        26086109,
+        6888390634
+      ],
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Chaussée de Boondael - Boondaalse Steenweg",
+        "name:fr": "Chaussée de Boondael",
+        "name:nl": "Boondaalse Steenweg",
+        "oneway": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 34497368,
+      "nodes": [
+        26083653,
+        6284439198,
+        6058277349,
+        26083654,
+        1470030936,
+        26083655,
+        6058277351,
+        6725173734,
+        26083656
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Square des Latins - Latijnensquare",
+        "name:fr": "Square des Latins",
+        "name:nl": "Latijnensquare",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38934053,
+      "nodes": [
+        26086013,
+        1725550357,
+        7208946667,
+        26086015
+      ],
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Square Robert Goldschmidt - Robert Goldschmidtsquare",
+        "name:etymology:wikidata": "Q1185434",
+        "name:fr": "Square Robert Goldschmidt",
+        "name:nl": "Robert Goldschmidtsquare",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 38934054,
+      "nodes": [
+        26086009,
+        26086006
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Square Robert Goldschmidt - Robert Goldschmidtsquare",
+        "name:etymology:wikidata": "Q1185434",
+        "name:fr": "Square Robert Goldschmidt",
+        "name:nl": "Robert Goldschmidtsquare",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 133373269,
+      "nodes": [
+        1468185336,
+        1468185360,
+        5669252227,
+        5669252228,
+        1470031275
+      ],
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue Brillat-Savarin - Brillat-Savarinlaan",
+        "name:etymology:wikidata": "Q313027",
+        "name:fr": "Avenue Brillat-Savarin",
+        "name:nl": "Brillat-Savarinlaan",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 133560935,
+      "nodes": [
+        1470030938,
+        26083652,
+        5327639510,
+        26083653
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Square des Latins - Latijnensquare",
+        "name:fr": "Square des Latins",
+        "name:nl": "Latijnensquare",
+        "sidewalk": "both",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 133606372,
+      "nodes": [
+        1470629074,
+        6725206204,
+        4972474391,
+        6725206203,
+        1470629071,
+        6725206202,
+        1470629070,
+        1470629072,
+        6725206212,
+        1470629075,
+        1470629077,
+        6725206211,
+        1470629078
+      ],
+      "tags": {
+        "cycleway:right": "no",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue de l'Université - Hogeschoollaan",
+        "name:fr": "Avenue de l'Université",
+        "name:nl": "Hogeschoollaan",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 133606374,
+      "nodes": [
+        1470629074,
+        1470629066,
+        6725206214,
+        26086015,
+        5386288833,
+        1470625299,
+        1725550537
+      ],
+      "tags": {
+        "cycleway:left": "shared_lane",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue de l'Université - Hogeschoollaan",
+        "name:fr": "Avenue de l'Université",
+        "name:nl": "Hogeschoollaan",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 133606375,
+      "nodes": [
+        1470629079,
+        1470629082,
+        6725206228,
+        26083658
+      ],
+      "tags": {
+        "cycleway:right": "lane",
+        "highway": "residential",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue Général Médecin Derache - Generaal Geneesheer Derachelaan",
+        "name:etymology:wikidata": "Q85436049",
+        "name:fr": "Avenue Général Médecin Derache",
+        "name:nl": "Generaal Geneesheer Derachelaan",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 147764344,
+      "nodes": [
+        26085998,
+        5305367197,
+        5305367198,
+        1725442494,
+        6721594152,
+        26085999,
+        1722585853,
+        6721594151,
+        1722585848,
+        6721594150,
+        1722585841,
+        26086000
+      ],
+      "tags": {
+        "cycleway": "shared_lane",
+        "highway": "residential",
+        "name": "Rue François Dons - François Donsstraat",
+        "name:etymology:wikidata": "Q85425585",
+        "name:fr": "Rue François Dons",
+        "name:nl": "François Donsstraat",
+        "oneway": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 147764381,
+      "nodes": [
+        26085984,
+        5101455018,
+        1609440284,
+        5322219427,
+        1711730590,
+        5322219428,
+        5322219429,
+        370859072,
+        26085995,
+        5060302277,
+        1609440278,
+        5060302306,
+        1609440276
+      ],
+      "tags": {
+        "cycleway:left": "shared_lane",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Rue du Relais - Pleisterstraat",
+        "name:fr": "Rue du Relais",
+        "name:nl": "Pleisterstraat"
+      }
+    },
+    {
+      "type": "way",
+      "id": 148808963,
+      "nodes": [
+        250854913,
+        5327630534,
+        1468185318,
+        5327630570,
+        5327630576,
+        26083646
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue Armand Huysmans - Armand Huysmanslaan",
+        "name:etymology:wikidata": "Q11313501",
+        "name:fr": "Avenue Armand Huysmans",
+        "name:nl": "Armand Huysmanslaan",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 160488732,
+      "nodes": [
+        1725442610,
+        6726907202,
+        1725442650,
+        1727130986,
+        1727131012,
+        1727133420,
+        5386288832,
+        1470625294,
+        1725550491
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Avenue Armand Huysmans - Armand Huysmanslaan",
+        "name:etymology:wikidata": "Q11313501",
+        "name:fr": "Avenue Armand Huysmans",
+        "name:nl": "Armand Huysmanslaan",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 160500157,
+      "nodes": [
+        1725550543,
+        1470625300,
+        5386288834,
+        4970869076,
+        5327630535,
+        26083651
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue Armand Huysmans - Armand Huysmanslaan",
+        "name:etymology:wikidata": "Q11313501",
+        "name:fr": "Avenue Armand Huysmans",
+        "name:nl": "Armand Huysmanslaan",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 160500161,
+      "nodes": [
+        1725550496,
+        5386288831,
+        1470625297,
+        4537416422
+      ],
+      "tags": {
+        "cycleway:left": "shared_lane",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue de l'Université - Hogeschoollaan",
+        "name:fr": "Avenue de l'Université",
+        "name:nl": "Hogeschoollaan",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 160500256,
+      "nodes": [
+        1725550496,
+        1725550493,
+        1725550489,
+        1725550484,
+        1725550491,
+        1725550498,
+        4979595160,
+        1725550506,
+        4979595159,
+        1725550537
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue de l'Université - Hogeschoollaan",
+        "name:fr": "Avenue de l'Université",
+        "name:nl": "Hogeschoollaan",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 220267250,
+      "nodes": [
+        26083599,
+        5669252229,
+        1477766364,
+        6554868238,
+        26083597
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Chaussée de Boondael - Boondaalse Steenweg",
+        "name:fr": "Chaussée de Boondael",
+        "name:nl": "Boondaalse Steenweg",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 243570314,
+      "nodes": [
+        26083658,
+        5669252222,
+        5669252221,
+        1470031272
+      ],
+      "tags": {
+        "cycleway:left": "shared_lane",
+        "cycleway:right": "lane",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue Général Médecin Derache - Generaal Geneesheer Derachelaan",
+        "name:etymology:wikidata": "Q85436049",
+        "name:fr": "Avenue Général Médecin Derache",
+        "name:nl": "Generaal Geneesheer Derachelaan",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 258798208,
+      "nodes": [
+        4537416422,
+        2641225660,
+        1470625291,
+        5327568885,
+        3132579327,
+        8092123
+      ],
+      "tags": {
+        "cycleway:left": "shared_lane",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue de l'Université - Hogeschoollaan",
+        "name:fr": "Avenue de l'Université",
+        "name:nl": "Hogeschoollaan",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 258798209,
+      "nodes": [
+        1470629078,
+        6725206210,
+        4972474393,
+        6725206209,
+        1470629080,
+        1470629079
+      ],
+      "tags": {
+        "cycleway:right": "no",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "maxspeed": "30",
+        "name": "Avenue de l'Université - Hogeschoollaan",
+        "name:fr": "Avenue de l'Université",
+        "name:nl": "Hogeschoollaan",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 258798210,
+      "nodes": [
+        1725550537,
+        1725550544,
+        1725550552,
+        1725550546,
+        1725550543
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "maxspeed": "30",
+        "name": "Avenue de l'Université - Hogeschoollaan",
+        "name:fr": "Avenue de l'Université",
+        "name:nl": "Hogeschoollaan",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 258798211,
+      "nodes": [
+        8092118,
+        496028608,
+        250854863,
+        5554237180,
+        496028612,
+        496028617,
+        5554237179,
+        8092119
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "name": "Avenue de la Couronne - Kroonlaan",
+        "name:fr": "Avenue de la Couronne",
+        "name:nl": "Kroonlaan",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 307580144,
+      "nodes": [
+        8092119,
+        496028625,
+        5554237176,
+        5554237177,
+        8092120,
+        496028628,
+        5554237175,
+        8092121
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "name": "Avenue de la Couronne - Kroonlaan",
+        "name:fr": "Avenue de la Couronne",
+        "name:nl": "Kroonlaan",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 328023152,
+      "nodes": [
+        26080213,
+        5341208828,
+        1464314813,
+        6418483655,
+        1868711311,
+        26080598,
+        1868711317,
+        6554793759,
+        1466702722
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Chaussée de Boondael - Boondaalse Steenweg",
+        "name:fr": "Chaussée de Boondael",
+        "name:nl": "Boondaalse Steenweg",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 329279828,
+      "nodes": [
+        26085988,
+        1711731032,
+        1711730822,
+        26085987,
+        1711730673,
+        1711730649,
+        5101455017,
+        26085984
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Rue Volta - Voltastraat",
+        "name:fr": "Rue Volta",
+        "name:nl": "Voltastraat",
+        "oneway": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 408687064,
+      "nodes": [
+        1725550543,
+        4979595162,
+        1725550503,
+        4979595161,
+        1725550496
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "maxspeed": "30",
+        "name": "Avenue de l'Université - Hogeschoollaan",
+        "name:fr": "Avenue de l'Université",
+        "name:nl": "Hogeschoollaan",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 408687065,
+      "nodes": [
+        3132579449,
+        3132579446,
+        4970819013,
+        3132579443,
+        4970819020
+      ],
+      "tags": {
+        "cycleway:left": "shared_lane",
+        "cycleway:right": "track",
+        "cycleway:right:segregated": "no",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue Adolphe Buyl - Adolphe Buyllaan",
+        "name:etymology:wikidata": "Q2824787",
+        "name:fr": "Avenue Adolphe Buyl",
+        "name:nl": "Adolphe Buyllaan",
+        "sidewalk": "right",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 437714009,
+      "nodes": [
+        26085784,
+        5101467621,
+        5101467622,
+        26085986
+      ],
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Chaussée de Boondael - Boondaalse Steenweg",
+        "name:fr": "Chaussée de Boondael",
+        "name:nl": "Boondaalse Steenweg",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 437714010,
+      "nodes": [
+        26085986,
+        26085985
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Chaussée de Boondael - Boondaalse Steenweg",
+        "name:fr": "Chaussée de Boondael",
+        "name:nl": "Boondaalse Steenweg",
+        "oneway": "yes",
+        "oneway:bicycle": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 457631402,
+      "nodes": [
+        4214151992,
+        3132579432,
+        4970819014,
+        8092123
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue Adolphe Buyl - Adolphe Buyllaan",
+        "name:etymology:wikidata": "Q2824787",
+        "name:fr": "Avenue Adolphe Buyl",
+        "name:nl": "Adolphe Buyllaan",
+        "oneway": "yes",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 507608741,
+      "nodes": [
+        4970819020,
+        4970819017,
+        4214151992
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue Adolphe Buyl - Adolphe Buyllaan",
+        "name:etymology:wikidata": "Q2824787",
+        "name:fr": "Avenue Adolphe Buyl",
+        "name:nl": "Adolphe Buyllaan",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 507608742,
+      "nodes": [
+        8092123,
+        4970819019,
+        4970819016,
+        4970819018,
+        4970819020
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue Adolphe Buyl - Adolphe Buyllaan",
+        "name:fr": "Avenue Adolphe Buyl",
+        "name:nl": "Adolphe Buyllaan",
+        "oneway": "yes",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 507818798,
+      "nodes": [
+        26083651,
+        250854913
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue Armand Huysmans - Armand Huysmanslaan",
+        "name:etymology:wikidata": "Q11313501",
+        "name:fr": "Avenue Armand Huysmans",
+        "name:nl": "Armand Huysmanslaan",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 507818808,
+      "nodes": [
+        1470629079,
+        6725206208,
+        6725206205,
+        4972474392,
+        6725206206,
+        1470629076,
+        6725206207,
+        1470629074
+      ],
+      "tags": {
+        "cycleway:right": "no",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "maxspeed": "30",
+        "name": "Avenue de l'Université - Hogeschoollaan",
+        "name:fr": "Avenue de l'Université",
+        "name:nl": "Hogeschoollaan",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 508690456,
+      "nodes": [
+        26085784,
+        5101455020,
+        26085984
+      ],
+      "tags": {
+        "cycleway:left": "lane",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Rue du Relais - Pleisterstraat",
+        "name:fr": "Rue du Relais",
+        "name:nl": "Pleisterstraat"
+      }
+    },
+    {
+      "type": "way",
+      "id": 508690457,
+      "nodes": [
+        8092121,
+        5554237187,
+        496028587,
+        5554237186,
+        496028596,
+        8092126
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "name": "Avenue de la Couronne - Kroonlaan",
+        "name:fr": "Avenue de la Couronne",
+        "name:nl": "Kroonlaan",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 508701859,
+      "nodes": [
+        3132579309,
+        4979580812,
+        4979580811,
+        8092123
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue Adolphe Buyl - Adolphe Buyllaan",
+        "name:fr": "Avenue Adolphe Buyl",
+        "name:nl": "Adolphe Buyllaan",
+        "oneway": "yes",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 508701860,
+      "nodes": [
+        8092123,
+        2219403876,
+        3132579316,
+        3132579309
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue Adolphe Buyl - Adolphe Buyllaan",
+        "name:etymology:wikidata": "Q2824787",
+        "name:fr": "Avenue Adolphe Buyl",
+        "name:nl": "Adolphe Buyllaan",
+        "oneway": "yes",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549216803,
+      "nodes": [
+        5305367219,
+        5305368122,
+        5305367218,
+        5305367217,
+        5305367216,
+        5305367215,
+        5305367220,
+        5305367214,
+        5305367213,
+        5305367212,
+        5305367211,
+        5305367210,
+        26085998,
+        5305367209,
+        5305367208,
+        5305367207,
+        5305367206,
+        5305368121,
+        5305367205,
+        5305367204,
+        5305367203,
+        5305367202,
+        5305367219
+      ],
+      "tags": {
+        "highway": "residential",
+        "junction": "roundabout"
+      }
+    },
+    {
+      "type": "way",
+      "id": 549216806,
+      "nodes": [
+        26085986,
+        5101455014,
+        1722585856,
+        5305367201,
+        5305368121
+      ],
+      "tags": {
+        "description": "https://www.bruzz.be/samenleving/pierre-en-marie-curie-herenigd-2012-04-20",
+        "highway": "residential",
+        "name": "Avenue Pierre et Marie Curie - Pierre en Marie Curielaan",
+        "name:etymology:wikidata": "Q37463;Q7186",
+        "name:fr": "Avenue Pierre et Marie Curie",
+        "name:nl": "Pierre en Marie Curielaan",
+        "old_name": "Avenue Pierre Curie - Pierre Curielaan",
+        "old_name:fr": "Avenue Pierre Curie",
+        "old_name:nl": "Pierre Curielaan",
+        "oneway": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 594566874,
+      "nodes": [
+        5669215455,
+        5669252226,
+        5669252225,
+        26083648
+      ],
+      "tags": {
+        "cycleway:left": "shared_lane",
+        "cycleway:right": "lane",
+        "highway": "residential",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue Général Médecin Derache - Generaal Geneesheer Derachelaan",
+        "name:etymology:wikidata": "Q85436049",
+        "name:fr": "Avenue Général Médecin Derache",
+        "name:nl": "Generaal Geneesheer Derachelaan",
+        "oneway": "no",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 594566875,
+      "nodes": [
+        1470031277,
+        5669252223,
+        5669252224,
+        26083649,
+        6554868239,
+        1477766363,
+        1477766364
+      ],
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Avenue Brillat-Savarin - Brillat-Savarinlaan",
+        "name:etymology:wikidata": "Q313027",
+        "name:fr": "Avenue Brillat-Savarin",
+        "name:nl": "Brillat-Savarinlaan",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 594566876,
+      "nodes": [
+        5669215469,
+        5669215459,
+        6725169944,
+        1470031275,
+        5669215468,
+        5669215467,
+        6725169943,
+        5669215466,
+        5669215458,
+        1470031272,
+        5669215465,
+        6725169942,
+        5669215464,
+        5669215463,
+        5669215457,
+        1470031277,
+        5669215462,
+        5669215461,
+        6725169947,
+        5669215460,
+        5669215456,
+        6725169946,
+        5669215455,
+        5669215471,
+        6725169945,
+        5669215470,
+        5669215469
+      ],
+      "tags": {
+        "highway": "residential",
+        "junction": "roundabout",
+        "maxspeed": "30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 628774908,
+      "nodes": [
+        1466702722,
+        5700040028,
+        6554828961,
+        6554828962,
+        1466702678,
+        1468163971,
+        5700040030,
+        26083648
+      ],
+      "tags": {
+        "cycleway:left": "lane",
+        "cycleway:right": "shared_lane",
+        "highway": "residential",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Place de la Petite Suisse - Klein-Zwitserlandplein",
+        "name:fr": "Place de la Petite Suisse",
+        "name:nl": "Klein-Zwitserlandplein",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 643889112,
+      "nodes": [
+        6058277348,
+        6058277349
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Square des Latins - Latijnensquare",
+        "name:fr": "Square des Latins",
+        "name:nl": "Latijnensquare",
+        "oneway": "yes",
+        "sidewalk": "none",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 643889113,
+      "nodes": [
+        6058277351,
+        6058277352
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Square des Latins - Latijnensquare",
+        "name:fr": "Square des Latins",
+        "name:nl": "Latijnensquare",
+        "oneway": "yes",
+        "sidewalk": "none",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 697956274,
+      "nodes": [
+        26083648,
+        6554828959,
+        26083597
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "maxspeed": "30",
+        "maxspeed:type": "BE:zone30",
+        "name": "Place de la Petite Suisse - Klein-Zwitserlandplein",
+        "name:fr": "Place de la Petite Suisse",
+        "name:nl": "Klein-Zwitserlandplein",
+        "source:maxspeed": "BE:zone30",
+        "surface": "asphalt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+  // OSM script to execute on https://overpass-turbo.eu or https://overpass-api.de/api/interpreter
+  // Author: Matsvei Tsishyn
+  // Settings --------------------------------------------------------------------
+  [out:json][timeout:180][bbox:50.8127, 4.3841, 50.8182, 4.392];
+
+  // Find all way elements -------------------------------------------------------
+  (
+    	way[highway=primary][!area];
+	way[highway=primary_link][!area];
+	way[highway=secondary][!area];
+	way[highway=secondary_link][!area];
+	way[highway=tertiary][!area];
+	way[highway=tertiary_link][!area];
+	way[highway=residential][!area];
+	way[highway=motorway][!area];
+	way[highway=motorway_link][!area];
+	way[highway=trunk][!area];
+	way[highway=trunk_link][!area];
+  )->.ways;
+
+  // Find all of their node children elements ------------------------------------
+  .ways; node(w)->.nodes;
+
+  // Take the union --------------------------------------------------------------
+  (
+    .ways;
+    .nodes;
+  )->.all;
+
+  // Export ----------------------------------------------------------------------
+  .all out;
