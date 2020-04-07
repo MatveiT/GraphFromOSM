@@ -69,7 +69,8 @@ const nodeToFeature = (node) => {
       coordinates: node.coordinates
     },
     properties: {
-      dataId: node.id
+      osmId: node.id,
+      tags: node.tags || {}
     }
   }
 }
@@ -88,10 +89,33 @@ const wayToFeature = (link, nodeId) => {
       coordinates: coordinates
     },
     properties: {
-      dataId: link.id,
-      length: lengthOfLineString(coordinates)
+      osmId: link.id,
+      length: lengthOfLineString(coordinates),
+      tags: link.tags || {}
     }
   }
 }
 
-module.exports = { decomposeWaysToLinks, nodeToFeature, wayToFeature };
+
+// -----------------------------------------------------------------------------
+// Assign unique ids to each point and linestring objects and adapt src and tgt of links (lineStrings)
+const assignIds = (nodes, links) => {
+  const osmIdToId = new Map();              // send OSM id (that are no more uniques for links) to a new generated unique id
+  // Update Nodes
+  nodes.forEach( (node, i) => {
+    node.id = (i+1);
+    osmIdToId.set(node.properties.osmId, node.id);
+  })
+
+  // Update links
+  const incrementForLinksIds = nodes.length + 1;
+  links.forEach( (link, i) => {
+    link.id = (i+incrementForLinksIds);
+    link.src = osmIdToId.get(link.src);
+    link.tgt = osmIdToId.get(link.tgt);
+  })
+}
+
+
+
+module.exports = { decomposeWaysToLinks, nodeToFeature, wayToFeature, assignIds };
