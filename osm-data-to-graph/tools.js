@@ -1,5 +1,3 @@
-const { lengthOfLineString } = require('./distances.js');
-
 /*
 --------------------------------------------------------------------------------
 Here we define several functions that will be used in OsmToGraph function to
@@ -90,7 +88,6 @@ const wayToFeature = (link, nodeId) => {
     },
     properties: {
       osmId: link.id,
-      length: lengthOfLineString(coordinates),
       tags: link.tags || {}
     }
   }
