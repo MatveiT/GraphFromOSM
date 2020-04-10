@@ -1,5 +1,5 @@
 const { decomposeWaysToLinks, nodeToFeature, wayToFeature, assignIds } = require('./tools');
-const cloneDeep = require('lodash/cloneDeep');
+const _ = require('lodash');
 
 /*
 --------------------------------------------------------------------------------
