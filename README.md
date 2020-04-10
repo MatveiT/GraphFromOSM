@@ -11,7 +11,7 @@ Here is a minimalistic JavaScript module that can dynamically generate a script 
   By graph structured I refer to a mathematical (directed) [graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) structure, which is basically a set of nodes (also called vertices) connected by links (also called edges). So, in this case, each **road is a link** and each **intersection is a node**.
 
 Here is a visualization of the result,
-<img src="./img/graph.PNG" alt="graph" style="width:100%"/>
+<img src="https://user-images.githubusercontent.com/43819287/79017980-f085a500-7b72-11ea-8be8-d2c678a6e2a8.PNG" alt="graph" style="width:100%"/>
 (image generated with [geojson.io](https://geojson.io/))
 
 ## Usage
@@ -53,7 +53,7 @@ Represented as a **bbox** (bounding box), which is an array of length 4 with flo
 where ``[longitude_1, latitude_1]`` is the **bottom-left corner** of the box and ``[longitude_2, latitude_2]`` is the **top-right corner** of the box. The 4 values should be valid [geographical coordinates](https://en.wikipedia.org/wiki/Geographic_coordinate_system) in degrees.
 
 For example, the following bbox is defined by the array ``[4.3777, 50.8132, 4.3969, 50.8223]``.
-<img src="./img/bbox.PNG" alt="bbox" style="width:100%"/>
+<img src="https://user-images.githubusercontent.com/43819287/79017969-e82d6a00-7b72-11ea-871f-50487e2309d1.PNG" alt="bbox" style="width:100%"/>
 (image generated with [geojson.io](https://geojson.io/))
 
 
@@ -78,7 +78,7 @@ In OSM raw data, a node element do not always corresponds to an intersection of 
 So, the graph data file possess generally fewer nodes and more links than the OMS raw data file.
 Here you can see an illustration of this transformation.
 
-<img src="./img/dataType.PNG" alt="bbox" style="width:100%"/>
+<img src="https://user-images.githubusercontent.com/43819287/79017977-ec598780-7b72-11ea-8b93-b3a8aaf1ecf4.PNG" alt="bbox" style="width:100%"/>
 (image generated with Q-GIS)
 
 #### 2) Id system of the graph data
