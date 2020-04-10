@@ -1,6 +1,6 @@
 {
   "name": "graph-from-osm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Import roads network data from OSM and transform it to a geojson format graph",
   "main": "index.js",
   "scripts": {
