@@ -1,5 +1,5 @@
 const { decomposeWaysToLinks, nodeToFeature, wayToFeature, assignIds } = require('./tools');
-const cloneDeep = require('lodash/clonedeep');
+const _ = require('lodash');
 
 /*
 --------------------------------------------------------------------------------
@@ -29,7 +29,7 @@ const osmDataToGraph = (osmData) => {
   const nodes = [], ways = [];               // Separate arrays of respectively nodes and ways OSM elements
   const nodeId = new Map();                  // Map: node.id => node
   elements.forEach( element => {
-    const copy = cloneDeep(element)         // Let us avoid side effects
+    const copy = _.cloneDeep(element)         // Let us avoid side effects
     if(copy.type === 'node'){
       copy.coordinates = [copy.lon, copy.lat];
       copy.adjLinksCount = 0              // adjLinksCount count how may OSM ways pass trough this node
