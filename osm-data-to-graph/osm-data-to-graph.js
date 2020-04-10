@@ -1,5 +1,4 @@
 const { decomposeWaysToLinks, nodeToFeature, wayToFeature, assignIds } = require('./tools');
-const _ = require('lodash');
 
 /*
 --------------------------------------------------------------------------------
@@ -29,15 +28,25 @@ const osmDataToGraph = (osmData) => {
   const nodes = [], ways = [];               // Separate arrays of respectively nodes and ways OSM elements
   const nodeId = new Map();                  // Map: node.id => node
   elements.forEach( element => {
-    const copy = _.cloneDeep(element)         // Let us avoid side effects
-    if(copy.type === 'node'){
-      copy.coordinates = [copy.lon, copy.lat];
-      copy.adjLinksCount = 0              // adjLinksCount count how may OSM ways pass trough this node
-      copy.inGraph = false                // indicate if we need to import this OSM node as a node in the graph
-      nodes.push(copy);
-      nodeId.set(copy.id, copy)
-    }else if(copy.type === 'way'){
-      ways.push(copy);
+    if(element.type === 'node'){
+      const copyNode = {
+        type: element.type,
+        id: element.id,
+        coordinates: [element.lon, element.lat],
+        adjLinksCount: 0,              // adjLinksCount count how may OSM ways pass trough this node
+        inGraph: false,                // indicate if we need to import this OSM node as a node in the graph
+        tags: {...element.tags}
+      }
+      nodes.push(copyNode);
+      nodeId.set(copyNode.id, copyNode);
+    }else if(element.type === 'way'){
+      const copyLink = {
+        type: element.type,
+        id: element.id,
+        nodes: [...element.nodes],
+        tags: {...element.tags}
+      }
+      ways.push(copyLink);
     }
   })
 

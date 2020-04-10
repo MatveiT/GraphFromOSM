@@ -1,16 +1,31 @@
 {
   "name": "graph-from-osm",
-  "version": "1.0.1",
-  "description": "Import roads network data from OSM and transform it to a geojson format graph",
+  "version": "1.0.0",
+  "description": "JavaScript minimalistic module to import data from OSM and transform it into geoJSON-format graph structured data.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "node generate.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatveiT/GraphFromOSM.git"
+  },
+  "keywords": [
+    "graph",
+    "OpenStreetMap",
+    "OSM",
+    "geojson",
+    "network",
+    "routing"
+  ],
   "author": "Matsvei Tsishyn",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatveiT/GraphFromOSM/issues"
+  },
+  "homepage": "https://github.com/MatveiT/GraphFromOSM#readme",
   "dependencies": {
-    "axios": "^0.19.2",
-    "lodash": "^4.17.15"
+    "axios": "^0.19.2"
   }
 }
