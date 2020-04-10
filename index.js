@@ -1,14 +1,10 @@
-const { generateOsmScript } = require('./get-osm-data/generate-osm-script.js');
-const { runOsmQuery } = require('./get-osm-data/run-osm-query.js');
+const { getOsmData } = require('./get-osm-data/get-osm-data.js');
 const { osmDataToGraph } = require('./osm-data-to-graph/osm-data-to-graph.js');
 
 
-
-
 const graphFromOsm = {
-  generateOsmScript,               // Generates an OSM script from settings    (1)
-  runOsmQuery,                     // Make an OSM query from a script          (2)
-  osmDataToGraph                   // Transform OSM data into geojson graph    (3)
+  getOsmData,                     // Make an OSM query and recieve OSM data (asynchrone)
+  osmDataToGraph                  // Transform OSM data into geojson graph  (synchrone)
 }
 
 

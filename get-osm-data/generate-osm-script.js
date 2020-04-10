@@ -5,13 +5,14 @@ const { areSettingsCorrect } = require('./are-settings-correct.js');
 Given a settings object, this function generates dynamically an OSM script that can
 be used for an OSM query on https://overpass-turbo.eu or https://overpass-api.de/api/interpreter
 
-- Input: settings object with properties bbox and highways:
+- Input: settings object with properties bbox, highways, timeout and maxContentLength:
     - bbox: array of length 4 with float values: [longitude_1, latitude_1, longitude_2, latitude_2]
             where [longitude_1, latitude_1] is the bottom-left corner of the box and
             [longitude_2, latitude_2] is the top-right corner of the box.
             The 4 values should be valid geographical coordinates in degrees
             Ref: (https://en.wikipedia.org/wiki/Geographic_coordinate_system).
     - highways: a non-zero length array of string
+    - timeout, maxContentLength: strictly positive integer
 - Output: OSM data in JSON format with "way" and "node" type elements that are:
     - "way"-type elements that are inside the geographical region defined by settings.bbox and
        who pocess a tag "highway" with a values in settings.highways and that do not have a tag "area"
@@ -38,7 +39,7 @@ const generateOsmScript = (settings) => {
   // OSM script to execute on https://overpass-turbo.eu or https://overpass-api.de/api/interpreter
   // Author: Matsvei Tsishyn
   // Settings --------------------------------------------------------------------
-  [out:json][timeout:180][bbox:${bbox}];
+  [out:json][bbox:${bbox}];
 
   // Find all way elements -------------------------------------------------------
   (

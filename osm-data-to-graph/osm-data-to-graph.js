@@ -18,7 +18,7 @@ const osmDataToGraph = (osmData) => {
       version: osmData.version,
       generator: osmData.generator,
       osm3s: osmData.osm3s,
-      generationCodeAuthor: 'Matsvei Tsishyn'
+      generationgCodeAuthor: 'Matsvei Tsishyn'
     },
     features: []
   }

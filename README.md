@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Here is a minimalistic JavaScript module that can dynamically generate a script to perform OSM queries (to https://overpass-api.de/api/interpreter) and download relevant data about the routing-network. Then it transforms it to a **Graph-structured** data in [geoJSON](https://en.wikipedia.org/wiki/GeoJSON) format. It is possible to **specify the geographical region** and the **type of roads** to download.
+Here is a minimalistic (npm) JavaScript module that can dynamically generate a script to perform OSM queries (to https://overpass-api.de/api/interpreter) and download data about the routing-network. Then it transforms it to a **Graph-structured** data in [geoJSON](https://en.wikipedia.org/wiki/GeoJSON) format. It is possible to **specify the geographical region** and the **type of roads** to download.
 
 - What is a geoJSON format?
   It is a common JSON based format to represent geographical data with large ecosystem of libraries and softwares able to work with it. It can be easily visualized for example on [geojson.io](https://geojson.io/) or on softwares such as [Q-GIS](https://qgis.org/fr/site/).
@@ -14,21 +14,50 @@ Here is a visualization of the result,
 <img src="https://user-images.githubusercontent.com/43819287/79017980-f085a500-7b72-11ea-8be8-d2c678a6e2a8.PNG" alt="graph" style="width:100%"/>
 (image generated with [geojson.io](https://geojson.io/))
 
-## Usage
+## Usage as a npm module
 
-**In short terms**:
-````
-npm install
-npm run generate
-````
-**More precisely**:
+#### 1) Installation
+```bash
+$ npm install graph-from-osm
+```
+
+#### 2) Usage
+This module expose the object `graphFromOsm` which contains two functions `getOsmData` (asynchrone) and `generateGraph` (synchrone). Here is an example of how to use them:
+
+```js
+const graphFromOsm = require('graph-from-osm');              // Import module
+
+const generateGraph = async (settings) => {
+  const osmData = await graphFromOsm.getOsmData(settings);   // Import OSM raw data
+  const graph = graphFromOsm.osmDataToGraph(osmData)         // Here is your graph
+}
+
+const mySettings = {                                         // Define my settings
+  bbox: [4.3841, 50.8127, 4.3920, 50.8182],
+  highways: ["primary", "secondary", "tertiary", "residential"],
+  timeout: 600000000, maxContentLength: 1500000000
+}
+
+generateGraph(mySettings);
+
+```
+
+## Usage as a node.js app
+
+#### 1) Installation
 
 1) First you have to install [node.js](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) on your computer.
-2) Then initialize (it installs all the dependencies) the module with the command
-``npm install``
+2) Download this project in a local directory.
+3) Then initialize (it installs all the dependencies) the module with the command
+```bash
+$ npm install
+```
 
-3) To perform a query, execute the command
-``npm run generate``
+#### 2) Usage
+Just run the command
+```bash
+$ npm run generate
+```
 
 Congratulation, you have obtained you graph!!
 - OSM script in ``./data/script.txt``
@@ -36,8 +65,7 @@ Congratulation, you have obtained you graph!!
 - graph in ``./data/graph.json``
 
 Or you can use the following functions (exposed in ``index.js``) in you own code:
-- ``generateOsmScript``: settings &#8594; OSM script
-- ``runOsmQuery``: OSM script &#8594; OSM row Data
+- ``getOsmData``: settings &#8594; OSM row Data
 - ``osmDataToGraph``: OSM raw Data &#8594; Graph
 
 You can see an example of how to use these function in the script ``./generate.js``.
@@ -70,6 +98,12 @@ Here is an **example of query** (or you can just see the template in ``./setting
   highways: [ "primary", "secondary", "tertiary" ]
 }
 ````
+
+#### 3) The timeout and maxContentLength
+
+There are time and size limitations for the query.
+Note that the smaller are these number, the higher is the priority of your query for OSM.
+
 ## Remarks
 
 #### 1) OSM raw data do not have a graph structure
@@ -99,4 +133,4 @@ Note that in graph data (`./data/graph.json`), the features keep the initial OSM
 For the sake of simplicity and minimalism and in order to limit the number of dependencies, this module do not uses any DataBase or other tool to manage memory. Consequently, if the amount of data you want to download exceeds you node.js capacity, the execution will crash.
 
 
-Author: Matsvei Tsishyn (matvei.tsishyn@gmail.com)
+**Author**: Matsvei Tsishyn (matvei.tsishyn@gmail.com)

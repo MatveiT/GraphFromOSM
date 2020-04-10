@@ -17,5 +17,7 @@
     "motorway_link",
     "trunk",
     "trunk_link"
-  ]
+  ],
+  "timeout": 600000000,
+  "maxContentLength": 1500000000
 }

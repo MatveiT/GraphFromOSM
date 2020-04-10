@@ -11,7 +11,9 @@ have the right structure.
 // Example of correct settings for printing error message ----------------------
 const exampleOfCorrectSettings = {
   bbox: [4.3841, 50.8127,	4.3920, 50.8182],
-  highways: ["primary", "secondary", "tertiary", "residential"]
+  highways: ["primary", "secondary", "tertiary", "residential"],
+  timeout: 600000000,
+  maxContentLength: 1500000000
 }
 
 // Function to print error -----------------------------------------------------
@@ -30,14 +32,13 @@ const printError = (message) => {
 // Tests -----------------------------------------------------------------------
 const areSettingsCorrect = (settings = {}) => {
   // Pocess right properties ---------------------------------------------------
-  if( !(settings.hasOwnProperty('bbox') && settings.hasOwnProperty('highways')) ){
-    printError('Settings object should pocess properties "bbox" and "highways".');
+  if( !(settings.hasOwnProperty('bbox') && settings.hasOwnProperty('highways') && settings.hasOwnProperty('timeout') && settings.hasOwnProperty('maxContentLength')) ){
+    printError('Settings object should pocess properties "bbox", "highways", "timeout" and "maxContentLength".');
     return false;
   }
-
+  const { bbox, highways, timeout, maxContentLength } = settings;
 
   // bbox is ok ----------------------------------------------------------------
-  const bbox = settings.bbox;
   if( !(Array.isArray(bbox) && bbox.length === 4) ){
     printError('bbox should be an array of length 4.');
     return false;
@@ -59,7 +60,6 @@ const areSettingsCorrect = (settings = {}) => {
 
 
   // highways is valid ---------------------------------------------------------
-  const highways = settings.highways;
   if( highways !== 'ALL'){
     if( !(Array.isArray(highways) && highways.length > 0) ){
       printError('highways should be a non-zero length array or highways = "ALL".');
@@ -76,6 +76,17 @@ const areSettingsCorrect = (settings = {}) => {
     }
   }
 
+
+  // timeout and maxContentLength are valid ------------------------------------
+  if( !(Number.isInteger(timeout) && timeout > 0) ){
+    printError("timeout should be a strictly positive integer");
+    return false;
+  }
+
+  if( !(Number.isInteger(maxContentLength) && maxContentLength > 0) ){
+    printError("maxContentLength should be a strictly positive integer");
+    return false;
+  }
 
   // All is correct :) ---------------------------------------------------------
   return true;
