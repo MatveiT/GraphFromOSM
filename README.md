@@ -95,7 +95,9 @@ Here is an **example of query** (or you can just see the template in ``./setting
 ````
 {
   bbox: [ 4.3772, 50.8106, 4.3945, 50.8200 ],
-  highways: [ "primary", "secondary", "tertiary" ]
+  highways: [ "primary", "secondary", "tertiary" ],
+  timeout: 600000000,
+  maxContentLength: 1500000000
 }
 ````
 
