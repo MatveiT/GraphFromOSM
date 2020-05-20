@@ -20,7 +20,7 @@ const write = (directory, string) => {
 
 // Write JSON file
 const writeJSON = (directory, json) => {
-  fs.writeFileSync(directory, JSON.stringify(json, null, '  '));
+  fs.writeFileSync(directory, JSON.stringify(json));
 };
 
 // Read JSON file
