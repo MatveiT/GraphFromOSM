@@ -14,7 +14,7 @@ Here is a visualization of the result,
 <img src="https://user-images.githubusercontent.com/43819287/79017980-f085a500-7b72-11ea-8be8-d2c678a6e2a8.PNG" alt="graph" style="width:100%"/>
 (image generated with [geojson.io](https://geojson.io/))
 
-## Usage as a npm module
+## I. Usage as a npm module
 
 #### 1) Installation
 ```bash
@@ -22,27 +22,28 @@ $ npm install graph-from-osm
 ```
 
 #### 2) Usage
-This module expose the object `graphFromOsm` which contains two functions `getOsmData` (asynchrone) and `generateGraph` (synchrone). Here is an example of how to use them:
+This module expose the object `graphFromOsm` which contains two functions `getOsmData` (asynchrone) and `generateGraph` (synchrone). Here is an **example** of how to use them:
 
 ```js
 const graphFromOsm = require('graph-from-osm');              // Import module
 
+const mySettings = {                                         // Define my settings
+  bbox: [4.3841, 50.8127, 4.3920, 50.8182],                          // Geographical rectangle
+  highways: ["primary", "secondary", "tertiary", "residential"],     // Type of roads to consider
+  timeout: 600000000, maxContentLength: 1500000000                   // OSM query parameters
+}
+
 const generateGraph = async (settings) => {
   const osmData = await graphFromOsm.getOsmData(settings);   // Import OSM raw data
   const graph = graphFromOsm.osmDataToGraph(osmData)         // Here is your graph
+  console.log("Your graph contains " + graph.features.length + " nodes ans links.");
 }
 
-const mySettings = {                                         // Define my settings
-  bbox: [4.3841, 50.8127, 4.3920, 50.8182],
-  highways: ["primary", "secondary", "tertiary", "residential"],
-  timeout: 600000000, maxContentLength: 1500000000
-}
-
-generateGraph(mySettings);
+generateGraph(mySettings);                                   // Execution
 
 ```
 
-## Usage as a node.js app
+## II. Usage as a node.js app
 
 #### 1) Installation
 
@@ -63,12 +64,6 @@ Congratulation, you have obtained you graph!!
 - OSM script in ``./data/script.txt``
 - OSM raw data in ``./data/osm-raw-data.json``
 - graph in ``./data/graph.json``
-
-Or you can use the following functions (exposed in ``index.js``) in you own code:
-- ``getOsmData``: settings &#8594; OSM row Data
-- ``osmDataToGraph``: OSM raw Data &#8594; Graph
-
-You can see an example of how to use these function in the script ``./generate.js``.
 
 ### Make your own query
 
@@ -105,6 +100,18 @@ Here is an **example of query** (or you can just see the template in ``./setting
 
 There are time and size limitations for the query.
 Note that the smaller are these number, the higher is the priority of your query for OSM.
+
+
+## Graph structure
+
+In the ``geojson`` format, the **nodes** of the graph are represented as **"Point"**-type features and the **links** are represented as **"LineString"**-type features.  
+Each link has properties ``src`` and ``tgt`` which indicate respectively its source node and target node id. This defines the topology of the graph.  
+Note that the roads can be bidirectional or non-bidirectional (for cars traffic) but they are never duplicated in the graph file.  
+For example if you want your graph to be **undirected** consider the ``src`` and ``tgt`` tags as equivalent.  
+On the other hands, if you want your graph to be **directed** consider to duplicate links in both directions ``src -> tgt`` and ``tgt -> src`` when needed. In general, when an OSM way object can be used by a car in only one direction it is tagged as ``"oneway": "yes"`` (more information [here](https://wiki.openstreetmap.org/wiki/Key:oneway)). In our graph format, it is stored as ``link.properties.tags.oneway``.  
+
+The **OSM tags are intentionally never used to construct the graph structure** in this module (execpt when filtering the type of roads to be imported). So that the user is free to choose the way to use them.
+
 
 ## Remarks
 
