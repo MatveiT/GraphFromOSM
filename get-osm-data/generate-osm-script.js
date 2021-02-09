@@ -39,7 +39,7 @@ const generateOsmScript = (settings) => {
   // OSM script to execute on https://overpass-turbo.eu or https://overpass-api.de/api/interpreter
   // Author: Matsvei Tsishyn
   // Settings --------------------------------------------------------------------
-  [out:json][bbox:${bbox}];
+  [out:json][bbox:${bbox}][timeout:${settings.timeout}][maxsize:${settings.maxContentLength}];
 
   // Find all way elements -------------------------------------------------------
   (
